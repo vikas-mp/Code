@@ -1,11 +1,18 @@
 # Code
 Initial Setup
+
 Create a data base in MYSQL with name world by using following command
+
 CREATE DATABASE world;
+
 Clone the project from the github into the eclipse. 
+
 Please change the mysql user name and password to its respective value in application.properties under src/main/java/resources
+
 Run the main class EmplloyeeApplication. 
+
 CRUD Operations
+
 Create API
 (POST)	localhost:8080/company/employees/ 
 Go to Authorization tab select Basic auth in type and give username as admin	and password as admin
