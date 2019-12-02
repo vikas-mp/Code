@@ -14,12 +14,19 @@ Run the main class EmplloyeeApplication.
 CRUD Operations
 
 Create API
+
+
 (POST)	localhost:8080/company/employees/ 
+
 Go to Authorization tab select Basic auth in type and give username as admin	and password as admin
+
 Body
+
 {"name":"VIK","designation":"SE","startDate":"20021995","dept":"bu","endDate":"19021995","status":"working","DOB":"10921995","reportingManager":"vilau","gender":"male","bloodGroup":"bpositve","address":"goa"}
+
 Response
 200 OK
+
 {
     "id": 1,
     "name": "VIK",
@@ -33,13 +40,17 @@ Response
     "bloodGroup": "bpositve",
     "address": "goa",
     "dob": “10921995”
+
 }
 
 
 
 Retrieve API:
+
 (GET)	localhost:8080/company/employees/ 
+
 Go to Authorization tab select Basic auth in type and give username as admin	and password as admin
+
 Response 
 200 OK
 [
@@ -73,9 +84,13 @@ Response
     }
 ]
 
+
 Retrieve by id
+
 (GET)	localhost:8080/company/employees/2
+
 Go to Authorization tab select Basic auth in type and give username as admin	and password as admin
+
 
 Response 
 200 OK
@@ -101,13 +116,17 @@ Response
  200 OK
 
 
+
 Update API (update address from goa to delhi)
+
 (PUT) localhost:8080/company/employees/1
+
 Go to Authorization tab select Basic auth in type and give username as admin	and password as admin
 
 Body
 {
     "id": 1, "name "VIK", "designation": "SE", "startDate": "20021995","dept": "bu", "endDate": 9021995",  “status": "working", "reportingManager": "vilau", "gender": "male","bloodGroup": "bpositve",  "address": “delhi",    "dob": "10921995"}
+
 
 
 
